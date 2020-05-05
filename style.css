@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/blur-cars-dew-drops-125510.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    height: 70vh;
+    width: 120vh;
+    background-color: aliceblue;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    border-radius: 2%;
+    z-index: 2;
+    box-shadow: 2px 2px 10px 2px #0a0a0a;;
+}
+
+.weather-container {
+    height: 30vh;
+    border-bottom: 2px solid gray;
+}
+
+.weather-first-row {
+    height: 18vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.weather-first-row h2 {
+    font-size: 35px;
+}
+
+.weather-second-row {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.map-container {
+    text-align: center;
+}
+
+.map-container-show {
+    height: 33vh;
+}
+
+#mapid {
+     height: 30vh;
+ }
+
+ #condition_img {
+     height: 50px;
+     width: 50px;
+ }
